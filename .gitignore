@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 虚拟环境（绝对不要提交，几千个文件且每台机器不同）
+.venv/
+venv/
+env/
+
+# 数据与模型权重（大文件，GitHub 单文件上限 100MB）
+data/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.csv
+*.parquet
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 密钥，永远不提交
+.env
+*.pem
